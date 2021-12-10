@@ -1,15 +1,16 @@
+import java.util.ArrayList;
+
 public class ALTester{
-  import ArrayList;
-  public ArrayList randle;
+  public ArrayList<Integer> randle;
   public boolean sorted;
 
   public ALTester(){
-    randle = new ArrayList(23);
+    randle = new ArrayList<Integer>(23);
   }
 
   public void checkSort(){
-  //   for (int i = 0; i < randle.length; i++){
-  //     if (randle[i] < randle[])
-  //   }
+    for (int i = 0; i < randle.length; i++){
+      if (randle[i].compareTo(randle[i+1]) > )
+    }
   }
 }
