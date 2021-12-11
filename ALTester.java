@@ -2,7 +2,6 @@ import java.util.ArrayList;
 
 public class ALTester{
   public ArrayList<Integer> randle;
-  public int unsortedCount;
 
   public ALTester(){
     randle = new ArrayList<Integer>(23);
@@ -14,15 +13,10 @@ public class ALTester{
   public boolean checkSort(){
     for (int i = 0; i + 1 < randle.size(); i++){
       if ((randle.get(i).compareTo(randle.get(i+1))) <= 0){
-        unsortedCount++;
+        return false;
       }
     }
-    if (unsortedCount > 0){
-      return false;
-    }
-    else{
-      return true;
-    }
+    return true;
   }
 
   public static void main(String[] args){
