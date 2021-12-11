@@ -13,7 +13,7 @@ public class ALTester{
 
   public boolean checkSort(){
     for (int i = 0; i + 1 < randle.size(); i++){
-      if (randle.get(i) > randle.get(i+1)){
+      if ((randle.get(i).compareTo(randle.get(i+1))) <= 0){
         unsortedCount++;
       }
     }
