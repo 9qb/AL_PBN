@@ -1,0 +1,1 @@
+- You can end a void method while it is in a loop by simply doing return;
