@@ -1,1 +1,5 @@
+- Have to import java.util.ArrayList and limit the ArrayList object to only use integers. 
+
+- SYNTAX: obj = new ArrayList<Integer>(number of elements);
+
 - You can end a void method while it is in a loop by simply doing return;
