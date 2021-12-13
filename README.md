@@ -5,6 +5,8 @@
 
 ALTester has a default constructor which initializes a new object ArrayList with 23 indices that can only contain integer elements. Once initialized, each index is assigned a randomly generated value. Then, it uses checkSort() to confirm whether or not the array's elements are arranged in ascending order. This method checks for sortedness in ascending order, it returns false at first detection of unsortedness. otherwise returns true. A string message is then printed to display whether or not the array is sorted in ascending order.  
 
+## OrderedArrayList
+
 - toString(): Overrides toString() with ArrayList's toString().
 - get(int index): Using ArrayList's get(), returns the int at a certain index.
 - size(): Using ArrayList's size(), returns the size of the ArrayList.
