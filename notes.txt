@@ -1,5 +1,15 @@
-- Have to import java.util.ArrayList and limit the ArrayList object to only use integers. 
+DISCO:
+- Have to import java.util.ArrayList and limit the ArrayList object to only use integers.
+
+- Imports are before class code (before class header).
+
+- ArrayList has its own toString(), get(), remove(), and compareTo() method. 
 
 - SYNTAX: obj = new ArrayList<Integer>(number of elements);
 
 - You can end a void method while it is in a loop by simply doing return;
+
+QCC:
+- How could you modify this program to work with Objects other than Integer?
+
+- How would compareTo work with Strings? Other objects?
