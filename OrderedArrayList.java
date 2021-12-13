@@ -9,7 +9,8 @@ DISCO
 - Have to import java.util.ArrayList and limit the ArrayList object to only use integers. 
 - ArrayList has its own compareTo() method. 
 QCC
-- iou
+- How could you modify this program to work with Objects other than Integer?
+- How would compareTo work with Strings? Other objects?
 */
 
 import java.util.ArrayList;
@@ -99,24 +100,24 @@ public class OrderedArrayList{
   }
 
   // FOR TESTING
-  // public static void main(String[] args){
-  //   ArrayList<Integer> randle = new ArrayList<Integer>(10);
-  //   for (int counter = 0; counter < 10; counter++){
-  //     randle.add((int)(Math.random() * 100));
-  //   }
-  //   System.out.println("unsorted: \t" + randle.toString() + "\t\t size: " + randle.size());
-  //
-  //   OrderedArrayList test = new OrderedArrayList(randle);
-  //   System.out.println("sorted: \t" + test.toString() + "\t\t size: " + test.size());
-  //
-  //   test.add(50);
-  //   System.out.println("post-addition: \t" + test.toString() + "\t\t size: " + test.size());
-  //
-  //   test.remove(4);
-  //   System.out.println("post-removal: \t" + test.toString() + "\t\t size: " + test.size());
-  //
-  //   test.set(3, 99);
-  //   System.out.println("post-set: \t" + test.toString() + "\t\t size: " + test.size());
-  // }
+  public static void main(String[] args){
+    ArrayList<Integer> randle = new ArrayList<Integer>(10);
+    for (int counter = 0; counter < 10; counter++){
+      randle.add((int)(Math.random() * 100));
+    }
+    System.out.println("unsorted: \t" + randle.toString() + "\t\t size: " + randle.size());
+
+    OrderedArrayList test = new OrderedArrayList(randle);
+    System.out.println("sorted: \t" + test.toString() + "\t\t size: " + test.size());
+
+    test.add(50);
+    System.out.println("post-addition: \t" + test.toString() + "\t\t size: " + test.size());
+
+    test.remove(4);
+    System.out.println("post-removal: \t" + test.toString() + "\t\t size: " + test.size());
+
+    test.set(3, 99);
+    System.out.println("post-set: \t" + test.toString() + "\t\t size: " + test.size());
+  }
 
 }
