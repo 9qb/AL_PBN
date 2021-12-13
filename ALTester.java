@@ -7,7 +7,7 @@
 /*
 DISCO
 - Have to import java.util.ArrayList and limit the ArrayList object to only use integers.
-- ArrayList has its own compareTo() method. 
+- ArrayList has its own toString(), get(), remove(), and compareTo() method. 
 QCC
 - How could you modify this program to work with Objects other than Integer?
 - How would compareTo work with Strings? Other objects?
