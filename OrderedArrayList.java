@@ -7,6 +7,7 @@
 /*
 DISCO
 - Have to import java.util.ArrayList and limit the ArrayList object to only use integers. 
+- ArrayList has its own compareTo() method. 
 QCC
 - iou
 */
