@@ -6,7 +6,7 @@
 
 /*
 DISCO
-- iou
+- Have to import java.util.ArrayList and limit the ArrayList object to only use integers. 
 QCC
 - iou
 */
