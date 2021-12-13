@@ -52,5 +52,25 @@ public class ALTester{
     ALTester test = new ALTester();
     System.out.println(test);
     System.out.println("is sorted?: " + test.checkSort());
+    
+    ArrayList<Integer> randle = new ArrayList<Integer>(10);
+    for (int counter = 0; counter < 10; counter++){
+      randle.add((int)(Math.random() * 100));
+    }
+    System.out.println("unsorted: \t" + randle.toString() + "\t\t size: " + randle.size());
+
+    OrderedArrayList sortedTest = new OrderedArrayList(randle);
+    System.out.println("sorted: \t" + sortedTest.toString() + "\t\t size: " + sortedTest.size());
+
+    sortedTest.add(50);
+    System.out.println("post-addition: \t" + sortedTest.toString() + "\t\t size: " + sortedTest.size());
+
+    sortedTest.remove(4);
+    System.out.println("post-removal: \t" + sortedTest.toString() + "\t\t size: " + sortedTest.size());
+
+    sortedTest.set(3, 99);
+    System.out.println("post-set: \t" + sortedTest.toString() + "\t\t size: " + sortedTest.size());
   }
+  
+
 }
